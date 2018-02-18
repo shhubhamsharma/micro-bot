@@ -1,0 +1,16 @@
+{
+  "name": "czc-bot",
+  "scripts": {
+    "postdeploy": "python app.py"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}

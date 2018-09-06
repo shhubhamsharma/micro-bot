@@ -5,8 +5,8 @@ from textblob import TextBlob
 from pymessenger.bot import Bot
 
 app = Flask(__name__)
-ACCESS_TOKEN = 'EAAbt8KW5n7MBALL8e58ZAFlv21yfE0jInFL5ZBRCO3ATb0RmBbKQzGZCIYxWvJT660zIunCd3dZCZB0uWVb0k463KQ334bzZB1JqsQIqwSrZBwnQD11OQHJT2v6j75jci3dPZB430o5MwcNVVZCZBy1v0JSxZByNrlagns4iHuADATmLzZCtC8QhEUxO'
-VERIFY_TOKEN = 'EAAbt8KW5n7MBALL8e58ZAFlv21yfE0jInFL5ZBRCO3ATb0RmBbKQzGZCIYxWvJT660zIunCd3dZCZB0uWVb0k463KQ334bzZB1JqsQIqwSrZBwnQD11OQHJT2v6j75jci3dPZB430o5MwcNVVZCZBy1v0JSxZByNrlagns4iHuADATmLzZCtC8QhEUxO'
+ACCESS_TOKEN = '**'
+VERIFY_TOKEN = '**'
 bot = Bot(ACCESS_TOKEN)
 Greeting_Keywords=("hello", "hi", "greetings", "sup", "what's up",'hey',)
 Greeting_Response=['hey how may i help you?','hey','hi']
